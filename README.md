@@ -1,2 +1,2 @@
-# wendyxcat.github.io
+# wendyxcat.github.io (INFS 634 Practice)
 Learning something 
