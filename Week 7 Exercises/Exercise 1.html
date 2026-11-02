@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore My Favourite City</title>
+</head>
+<body>
+    <h1>Welcome to My Favourite City</h1>
+    <p>This page introduces my favourite city and some places to visit.</p>
+    
+    <h2>About the City</h2>
+    <p>The city has museums, parks, and interesting neighbourhoods.</p>
+    <p>It is a <strong id="gallery">great place to explore</strong></p>
+    <hr>
+    
+    <h2>Top Attractions</h2>
+    <ul>
+        <li>Old Town</li>
+        <li>City Museum</li>
+        <li>Botanical Garden</li>
+    </ul>
+    
+    <h2>Useful Links</h2>
+    <p><a href="https://www.mtl.org/en">Tourism information</a></p>
+    <p><a href="https://www.mtl.org/en" target="_blank">Open tourism site in a new tab</a></p>
+    <p><a href="#gallery">Jump to the photo gallery</a></p>
+    
+    <h2>Photo Gallery</h2>
+    <img src="../Assets/Images/city-view.jpg" alt="City skyline" width="400">
+    <img src="Assets/Images/old-town.jpg" alt="Historic old town streets" width="400">
+    
+    <h2>Attraction Prices</h2>
+    <table>
+        <tr>
+            <th>Attraction</th>
+            <th>Admission</th>
+        </tr>
+        <tr>
+            <td>City Museum</td>
+            <td>$15</td>
+        </tr>
+        <tr>
+            <td>Botanical Garden</td>
+            <td>$10</td>
+        </tr>
+    </table>
+    
+    <h2>City Video</h2>
+    <video width="480" controls>
+        <source src="../Assets/Videos/Montreal-Vid-1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2>Plan Your Visit</h2>
+    <form method="post">
+        <p>
+            <label for="visitor-name">Your name:</label>
+            <input type="text" id="visitor-name" name="visitor-name">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </p>
+        <p>
+            <label for="season">Preferred season:</label>
+            <select id="season" name="season">
+                <option value="spring">Spring</option>
+                <option value="summer">Summer</option>
+            </select>
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <p>Thanks for visiting this page!</p>
+</body>
+</html>
