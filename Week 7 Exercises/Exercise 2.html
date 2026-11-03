@@ -82,19 +82,10 @@
     </video> 
 
     <p>The example below embeds a video using an iframe.</p>
-   <!-- Video Player Container -->
-<div style="position: relative; width: 560px; height: 315px; display: inline-block;">
-    <a href="https://youtube.com" target="_blank" title="Watch Butchart Gardens Tour on YouTube">
-        <!-- Core Fix: Fetching the exact official video thumbnail directly from YouTube's server -->
-        <img src="https://www.youtube.com/embed/M8-hIfEm6iM" alt="Butchart Gardens Virtual Tour Preview by Susan" style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 6px; border: 1px solid #ddd;">
-        
-        <!-- High-fidelity centered YouTube red play button overlay -->
-        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: #FF0000; border-radius: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.35); cursor: pointer;">
-            <!-- White triangle play arrow -->
-            <div style="width: 0; height: 0; border-top: 10px solid transparent; border-left: 18px solid white; border-bottom: 10px solid transparent; margin-left: 5px;"></div>
-        </div>
-    </a>
-</div>
+    <!-- Video Player Container -->
+    <iframe id="ytplayer" type="text/html" width="640" height="360"
+    src="https://www.youtube.com/embed/M8-hIfEm6iM"
+    frameborder="0"></iframe>
 
     <!-- Embedded PDF -->
     <h2>Embedded PDF</h2>
