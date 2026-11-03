@@ -78,14 +78,19 @@
     <h2>Video Tour</h2>
     <p>The example below embeds a video using HTML video tag. Using relative link; mp4 is saved locally.</p>
     <video autoplay muted controls width="560"> 
-        <source src="../Assets/Videos/Victoria-tour.mp4" type="video/mp4">
+        <source src="../Assets/Garden-tour.mp4" type="video/mp4">
     </video> 
 
     <p>The example below embeds a video using an iframe.</p>
     <!-- Video Player Container -->
-    <iframe id="ytplayer" type="text/html" width="640" height="360"
-    src="https://www.youtube.com/embed/M8-hIfEm6iM"
-    frameborder="0"></iframe>
+    <iframe width="560" height="315" 
+        src="../Assets/Garden-tour.mp4" 
+        title="Butchart Gardens Virtual Tour" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+</iframe>
 
     <!-- Embedded PDF -->
     <h2>Embedded PDF</h2>
