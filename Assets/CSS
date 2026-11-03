@@ -1,7 +1,12 @@
-
-    <style>
-        h1{color: purple;}
-        h2{color: red;}
-        p{color:aqua;}
-        #heading one{color: green;}
-    </style>
+h1 {
+    color: purple;
+}
+h2 {
+    color: red;
+}
+p {
+    color: aqua;
+}
+#heading-one {
+    color: green;
+}
