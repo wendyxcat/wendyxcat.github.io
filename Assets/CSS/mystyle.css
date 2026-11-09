@@ -8,8 +8,8 @@ h2 {
 p {
     color: orange;
     font-size: 1rem;
-    text-align: left;
-    text-align-last: center;
+    text-align:  justify;
+    text-align-last:  justify;
 }
 #heading-one {
     color: green;
