@@ -17,3 +17,8 @@ p {
 .secondary.color {
     background-color: rgb(187, 161, 212);
 }
+body {
+    background-image: url("<../Assets/IMG/Victoria.png>");
+    Background-repeat:repeat;
+    background-size: cover;
+}
