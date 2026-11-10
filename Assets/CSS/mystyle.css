@@ -31,7 +31,15 @@ body {
     background-size: cover;
 }
 a {
-    color: rgb(185, 226, 123);
-    text-decoration: solid;
+    color: rgb(127, 167, 66);
+    text-decoration: underline;
     background-color: rgb(167, 210, 196);
+}
+a:link, a:visited {
+    color: rgb(236, 188, 188);
+    background-color: rgb(183, 87, 183);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
