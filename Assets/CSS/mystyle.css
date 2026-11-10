@@ -11,7 +11,8 @@ p {
     color: orange;
     font-size: 1rem;
     text-align: left;
-    text-align-last: left;
+    text-indent: 2px;
+    white-space: Normal;
 }
 #heading-one {
     color: green;
