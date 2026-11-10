@@ -13,17 +13,17 @@ p {
     color: orange;
     font-size: 1rem;
     text-align: left;
-    text-indent: 10rem;
-    white-space: Normal;
-    margin:25px 45px 80px 58px;
+    text-indent: 2rem;
+    white-space: normal;
+    margin: 25px 45px 40px 58px;
 }
 #heading-one {
     color: green;
 }
-.primary.color {
+.primary-color {
     color: rgb(242, 242, 159);
 }
-.secondary.color {
+.secondary-color {
     background-color: rgb(187, 161, 212);
 }
 body {
@@ -33,25 +33,22 @@ body {
     background-position: center;
 }
 a {
+    display: inline-block;
     color: rgb(127, 167, 66);
-    text-decoration: underline;
     background-color: rgb(167, 210, 196);
-    padding-top: 25px;
-    padding-bottom: 60px;
-    padding-left: 80px;
-    padding-right: 35px;
-    padding: 25px 35px 60px 80px;
+    text-decoration: underline;
+    padding: 12px 24px;
+    margin: 5px 0;
+    text-align: center;
 }
 a:hover {
     color: rgb(236, 188, 188);
     background-color: rgb(196, 135, 75);
-    padding: 14px 25px;
-    text-align: center;
     text-decoration: none;
-    display: inline-block;
 }
-@media (max-width: 576px)  { 
-    body { 
-        background-color: rgb(89, 127, 139); 
-    } 
+@media (max-width: 576px) {
+    body {
+        background-image: none;
+        background-color: rgb(89, 127, 139);
+    }
 }
