@@ -40,9 +40,9 @@ a {
     padding-right: 35px;
     padding: 25px 35px 60px 80px;
 }
-a:link, a:visited {
+a:hover {
     color: rgb(236, 188, 188);
-    background-color: transparent;
+    background-color: rgb(196, 135, 75);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
