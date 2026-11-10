@@ -30,3 +30,7 @@ body {
     Background-repeat:repeat;
     background-size: cover;
 }
+a {
+    color: rgb(185, 226, 123);
+    background-color: rgb(167, 210, 196);
+}
