@@ -37,7 +37,7 @@ a {
 }
 a:link, a:visited {
     color: rgb(236, 188, 188);
-    background-color: rgb(183, 87, 183);
+    background-color: transparent;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
