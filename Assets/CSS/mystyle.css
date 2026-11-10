@@ -34,6 +34,11 @@ a {
     color: rgb(127, 167, 66);
     text-decoration: underline;
     background-color: rgb(167, 210, 196);
+    padding-top: 25px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 35px;
+    padding: 25px 35px 60px 80px;
 }
 a:link, a:visited {
     color: rgb(236, 188, 188);
