@@ -1,6 +1,8 @@
 h1 {
     color: purple;
     background-color: rgb(236, 194, 144);
+    text-decoration: underline;
+    text-decoration-style: wavy;
 }
 h2 {
     color: red;
