@@ -15,6 +15,7 @@ p {
     text-align: left;
     text-indent: 10rem;
     white-space: Normal;
+    margin:25px 50px 75px 100px;
 }
 #heading-one {
     color: green;
