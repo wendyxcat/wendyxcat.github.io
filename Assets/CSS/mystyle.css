@@ -49,3 +49,8 @@ a:hover {
     text-decoration: none;
     display: inline-block;
 }
+@media (max-width: 576px)  { 
+    body { 
+        background-color: lightblue; 
+    } 
+}
