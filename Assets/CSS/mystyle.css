@@ -32,5 +32,6 @@ body {
 }
 a {
     color: rgb(185, 226, 123);
+    text-decoration: solid;
     background-color: rgb(167, 210, 196);
 }
