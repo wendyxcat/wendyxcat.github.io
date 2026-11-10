@@ -3,6 +3,7 @@ h1 {
     background-color: rgb(236, 194, 144);
     text-decoration: underline;
     text-decoration-style: wavy;
+    text-shadow: 2px 2px 5px red;
 }
 h2 {
     color: red;
