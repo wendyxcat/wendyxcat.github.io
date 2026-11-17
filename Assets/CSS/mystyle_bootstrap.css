@@ -364,3 +364,11 @@ button:focus-visible,
     animation-iteration-count: 1 !important;
   }
 }
+
+h1 {
+    color: #0dcaf0 !important;
+}
+
+h2 {
+    color: #198754 !important;
+}
